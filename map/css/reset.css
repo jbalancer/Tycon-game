@@ -1,0 +1,34 @@
+body,
+body *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body,
+input,
+textarea{	
+	font-family: 'Comfortaa', cursive;	
+	font-size: 17px;
+}
+
+input,
+textarea{
+	font-family: 'Play', sans-serif;
+}
+
+body{
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+body.move-map,
+body.move-map *{
+	cursor: move;
+}
